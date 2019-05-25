@@ -1,0 +1,247 @@
+div {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1000;
+  margin-top:0px;
+  top: 0px;
+  padding-right: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      padding-left: 0px;
+      margin-right: 10px;
+   font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+  color: black;
+}
+
+#nav-bar {
+ max-width: 800px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+  width: 70%;
+}
+
+
+
+#header-img {
+  height: 7%;
+  min-width: 70px;
+  max-width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-right: 30px;
+}
+
+
+/*The are for index.html */
+div #about {
+  background-color: #EF8843;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+div #intro {
+  background-color: #EF8843;
+  padding: 1%;
+  text-align: center;
+  color: white;
+}
+
+
+
+main {
+  padding: 60px 0px 0px 0px;
+}
+
+#slider {
+  max-height: 400px; 
+  min-height: 320px;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 5px;
+}
+
+#premade, #custom {
+  width: 96%;
+  max-height: 350px;
+  max-width: 500px;
+  object-fit: cover;
+  padding: 2%;
+}
+
+
+.row {
+  display: flex;
+  
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+  position: relative;
+  display: block;
+  margin: auto;
+text-align: center;
+
+}
+
+.column #set {
+  flex: 100%;
+}
+
+div h4 { 
+  position: absolute;
+  bottom: 40%;
+  right: 35%;
+  background-color: white;
+  opacity: 0.8;
+  color: black;
+  padding: 10px;
+
+}
+
+#social {
+  text-align: center;
+  margin: 6px 0px 30px 0px;
+}
+
+#socImgWrap {
+  display: block;
+margin: auto;
+text-align: center;
+}
+
+#socialImg {
+  max-height: 200px;
+  padding: 2% 0.3% 0% 0.3%;
+  width: 18.5%;
+  object-fit: cover;
+}
+
+#credit {
+  font-size: 10px;
+
+}
+
+#handles svg {
+  max-width: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+
+     #header a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  
+    .nav-link:focus {
+      font-weight: bold;
+    }
+
+    h5 {
+      font-size: 15px;
+    }
+
+    /*For shop.html */
+
+  #ready {
+    margin-top: 50px;
+
+  }
+  #readyImg {
+    display: block;
+margin: auto;
+text-align: center;
+    
+  }
+   #shoprow {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+   }
+   #shopwrap {
+    padding: 5px;
+    object-fit: cover;
+    display: inline-block;
+    
+   }
+   #set {
+    max-height: 300px;
+   }
+ 
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #header {
+    background-color: white;
+  }
+
+  .row {
+    display: block;
+    padding: 2px;
+    margin: auto;
+   text-align: center;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  ul {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  #nav-bar {
+   
+     width: 100%;
+   }
+
+
+div #intro {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 1%;
+}
+
+div #one {
+  background-color:;
+  padding: ;
+  font-size: center;
+  background-image: url();
+}
+div #two {
+  background-color: ;
+  padding: ;
+  text-align: center;
+  background-image: url();
+}
+div #three {
+  background-color:;
+  padding: ;
+  text-align: center;
+  background-image: url();
+}
+  }
