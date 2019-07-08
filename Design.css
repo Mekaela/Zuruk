@@ -8,7 +8,7 @@ header {
   background-color: white;
   width: 100%;
   z-index: 1000;
-  margin-top:0px;
+  margin-top: 0px;
   top: 0px;
   padding-right: 10px;
 }
@@ -16,29 +16,26 @@ header {
 ul {
   list-style: none;
   margin-top: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-      padding-left: 0px;
-      margin-right: 10px;
-   font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0px;
+  margin-right: 10px;
+  font-size: 18px;
 }
 
-
 a {
-    text-decoration: none;
+  text-decoration: none;
   color: black;
 }
 
 #nav-bar {
- max-width: 800px;
- display: block;
- margin-left: auto;
- margin-right: auto;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
 }
-
-
 
 #header-img {
   height: 7%;
@@ -51,37 +48,35 @@ a {
   padding-right: 30px;
 }
 
-
 /*The are for index.html */
 div #about {
-  background-color: #EF8843;
+  background-color: #ef8843;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
 div #intro {
-  background-color: #EF8843;
+  background-color: #ef8843;
   padding: 1%;
   text-align: center;
   color: white;
 }
-
-
 
 main {
   padding: 60px 0px 0px 0px;
 }
 
 #slider {
-  max-height: 400px; 
+  max-height: 400px;
   min-height: 320px;
   width: 100%;
   object-fit: cover;
   padding-bottom: 5px;
 }
 
-#premade, #custom {
+#premade,
+#custom {
   width: 96%;
   max-height: 350px;
   max-width: 500px;
@@ -89,10 +84,8 @@ main {
   padding: 2%;
 }
 
-
 .row {
   display: flex;
-  
 }
 
 .column {
@@ -101,15 +94,14 @@ main {
   position: relative;
   display: block;
   margin: auto;
-text-align: center;
-
+  text-align: center;
 }
 
 .column #set {
   flex: 100%;
 }
 
-div h4 { 
+div h4 {
   position: absolute;
   bottom: 40%;
   right: 35%;
@@ -117,7 +109,6 @@ div h4 {
   opacity: 0.8;
   color: black;
   padding: 10px;
-
 }
 
 #social {
@@ -127,8 +118,8 @@ div h4 {
 
 #socImgWrap {
   display: block;
-margin: auto;
-text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 #socialImg {
@@ -140,7 +131,6 @@ text-align: center;
 
 #credit {
   font-size: 10px;
-
 }
 
 #handles svg {
@@ -152,49 +142,50 @@ text-align: center;
   padding-top: 10px;
 }
 
-     #header a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-  
-    .nav-link:focus {
-      font-weight: bold;
-    }
+#header a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-    h5 {
-      font-size: 15px;
-    }
+.nav-link:focus {
+  font-weight: bold;
+}
 
-    /*For shop.html */
+h5 {
+  font-size: 15px;
+}
 
-  #ready {
-    margin-top: 50px;
+/*For shop.html */
 
-  }
-  #readyImg {
-    display: block;
-margin: auto;
-text-align: center;
-    
-  }
-   #shoprow {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-   }
-   #shopwrap {
-    padding: 5px;
-    object-fit: cover;
-    display: inline-block;
-    
-   }
-   #set {
-    max-height: 300px;
-   }
- 
+#ready,
+#contact {
+  margin-top: 50px;
+}
+div #contact {
+  display: inline-block;
+  text-align: center;
+  max-width: 500px;
+}
+#readyImg {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+#shoprow {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+#shopwrap {
+  padding: 5px;
+  object-fit: cover;
+  display: inline-block;
+}
+#set {
+  max-height: 300px;
+}
 
-
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   /* For tablets: */
   #header {
     background-color: white;
@@ -204,44 +195,41 @@ text-align: center;
     display: block;
     padding: 2px;
     margin: auto;
-   text-align: center;
+    text-align: center;
   }
-  
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width: 500px) {
   /* For mobile phones: */
   ul {
     font-size: 20px;
     margin-bottom: 8px;
   }
   #nav-bar {
-   
-     width: 100%;
-   }
-
-
-div #intro {
-  font-size: 15px;
-  font-family: sans-serif;
-  padding: 1%;
-}
-
-div #one {
-  background-color:;
-  padding: ;
-  font-size: center;
-  background-image: url();
-}
-div #two {
-  background-color: ;
-  padding: ;
-  text-align: center;
-  background-image: url();
-}
-div #three {
-  background-color:;
-  padding: ;
-  text-align: center;
-  background-image: url();
-}
+    width: 100%;
   }
+
+  div #intro {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 1%;
+  }
+
+  div #one {
+    background-color: ;
+    padding: ;
+    font-size: center;
+    background-image: url();
+  }
+  div #two {
+    background-color: ;
+    padding: ;
+    text-align: center;
+    background-image: url();
+  }
+  div #three {
+    background-color: ;
+    padding: ;
+    text-align: center;
+    background-image: url();
+  }
+}
