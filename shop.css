@@ -1,0 +1,25 @@
+/*For shop.html */
+
+#ready, {
+    margin-top: 50px;
+  }
+  
+  #readyImg {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  #shoprow {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  #shopwrap {
+    padding: 5px;
+    object-fit: cover;
+    display: inline-block;
+  }
+  #set {
+    max-height: 300px;
+  }
+  
